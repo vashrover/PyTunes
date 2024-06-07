@@ -103,7 +103,7 @@ master.configure(background="#D2AFFF")
 master.title("Pytunes") 
 
 #Labels 
-Label(master,text= "Chill Vibes Playlist", font=("courier", 15,"bold"),background="#D2AFFF", fg= "black").grid(sticky= "N", row=0, padx= 120) 
+Label(master,text= "PyTunes", font=("courier", 15,"bold"),background="#D2AFFF", fg= "black").grid(sticky= "N", row=0, padx= 120) 
 Label(master, text= "~Select your Vibe~", font=("Georgia", 12,"italic"),background="#D2AFFF", fg= "Yellow").grid(sticky= "N", row=2) 
 titlelabel= Label(master, font=("Calibri", 12),background="#D2AFFF") 
 titlelabel.grid(stick = "N", row=4) 
